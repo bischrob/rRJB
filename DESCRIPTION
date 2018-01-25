@@ -1,10 +1,10 @@
 Package: rRJB
-Title: Package to keep personal functions.
+Title: Package to keep personal functions
 Version: 0.0.0.9000
 Authors@R: person("Robert", "Bischoff", email = "bischrob@gmail.com", role = c("aut", "cre"))
-Description: This is an attempt to keep commonly used functions in one place.
+Description: This is an attempt to keep commonly used functions in one place
 Depends: R (>= 3.0.0)
-License: What license is it under?
+License: NA
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000

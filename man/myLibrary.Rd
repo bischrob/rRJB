@@ -2,7 +2,7 @@
 % Please edit documentation in R/myLibrary.R
 \name{myLibrary}
 \alias{myLibrary}
-\title{A function to install packages if they do not exist.}
+\title{A function to install packages if they do not exist}
 \usage{
 myLibrary(my.packages)
 }
