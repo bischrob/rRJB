@@ -1,7 +1,7 @@
 #' A function to convert file path text on clipboard to standard R format
 #'
 #' This converts \ to \\ from text on clipboard
-#' @param fp
+#' @param None All that is required is that a file path is on the clipboard
 #' @keywords file path
 #' @export
 #' @examples

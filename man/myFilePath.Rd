@@ -6,6 +6,9 @@
 \usage{
 myFilePath()
 }
+\arguments{
+\item{None}{All that is required is that a file path is on the clipboard}
+}
 \description{
 This converts \ to \\ from text on clipboard
 }

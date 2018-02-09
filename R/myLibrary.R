@@ -9,19 +9,14 @@
 #' myPackages <- c('dplyr','ggplot2')
 #' myLibrary(myPackages)
 
-myLibrary <- function(myPackages, suppressPackage = T){
-  usePackage <- function(p)
+myLibrary <- function(myPackages){
     usePackage <- function(p)
     {
-      if (!is.element(p, installed.packages()[,1]))
+      if (!is.element(p, installed.packages()[,1])){
         install.packages(p, dep = TRUE)
-      if(suppressPackage == T){
-        lapply(p, function(x) suppressMessages(require(x, character.only = TRUE,quietly=TRUE,warn.conflicts = FALSE)))
-      } else {
         require(p, character.only = TRUE)
       }
-
-  lapply(myPackages, usePackage)
+        lapply(myPackages, usePackage)
     }
 }
 
