@@ -4,18 +4,16 @@
 \alias{myLibrary}
 \title{A function to install packages if they do not exist}
 \usage{
-myLibrary(myPackages)
-}
-\arguments{
-\item{myPackages}{List all packages needed. There is no default.}
+myLibrary(...)
 }
 \description{
 This function checks if needed packages are installed and installs and loads
-all requested packages. Additionally, the package warnings are suppressed.
+all requested packages.
 }
 \examples{
-myPackages <- c('dplyr','ggplot2')
-myLibrary(myPackages)
+myLibrary('dplyr','ggplot2')
 }
-\keyword{install.packages}
-\keyword{library,}
+\keyword{directory,}
+\keyword{set}
+\keyword{setwd}
+\keyword{working}
